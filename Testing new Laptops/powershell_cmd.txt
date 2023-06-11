@@ -1,0 +1,23 @@
+0 ## This documentation is Created by Yasheeb Faridi to install the tools necessary for testing the new Windows Laptops and how smoothly is its browser running.
+
+1    Instructions for Windows users using Powershell
+2    run "python3" cmd and redirect to MSstore for downloading python or Install Python 3 using the MSI available in python.org download page "https://www.python.org/downloads/".
+
+3    run  cmd "python3" and check if the python console appears or not and then run "pip --version". If not installed then Step 4 otherwise Step 5.
+4    https://bootstrap.pypa.io/get-pip.py
+     and run command "python3 get-pip.py" in that folder 
+     
+5    pip install selenium        OR
+
+6    Start a command prompt using the powershell program and run the pip command as given below to install selenium.
+     C:\Python39\Scripts\pip.exe install selenium          ## the path to python may be different, so check it
+     
+7    Now you can run your test scripts using Python. For example, if you have created a Selenium based script and saved it inside {C:\my_selenium_script.py}, you can
+     run it like this:
+     C:\Python39\python.exe C:\my_selenium_script.py
+     
+8    To download MS Edge Web Driver go to "https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/"
+     or   "https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/#installation"
+     
+9    pip list       to confirm the installation of selenium
+
